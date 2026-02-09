@@ -18,8 +18,5 @@ A lightweight command-line tool that verifies file integrity by generating and c
 
 
 # Example Usage:
-1. Generate hash: python file_checker.py generate sample.txt
-2. Output: Hash saved as sample.txt.hash
-3. Verify file integrity later:  python file_checker.py verify sample.txt
-Output: File intact 
-Output: File has been modified 
+<img width="1257" height="486" alt="image" src="https://github.com/user-attachments/assets/849ceb3e-0416-48ca-b6a5-abebff6106c7" />
+
