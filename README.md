@@ -10,26 +10,16 @@ A lightweight command-line tool that verifies file integrity by generating and c
 
 # How to Run:
 
-  1. Clone the repository:
-     "git clone https://github.com/your-username/File-Integrity-Checker.git"
+  1. Clone the repository:    "git clone https://github.com/your-username/File-Integrity-Checker.git"  then "cd File-Integrity-Checker"
 
-     "cd File-Integrity-Checker"
+  2. Run the Python program and generate hash for a file:  "python file_checker.py generate <filename>"
 
-  2. Run the Python program:
-
-     Generate hash for a file:
-     "python file_checker.py generate <filename>"
-
-  3. Verify a file against its hash:
-     "python file_checker.py verify <filename>"
+  3. Verify a file against its hash:  "python file_checker.py verify <filename>"
 
 
-Example Usage
-# Generate hash
-python file_checker.py generate sample.txt
-# Output: Hash saved as sample.txt.hash
-# Verify file integrity later
-python file_checker.py verify sample.txt
-# Output: File intact 
-# or
-# Output: File has been modified ⚠
+# Example Usage:
+1. Generate hash: python file_checker.py generate sample.txt
+2. Output: Hash saved as sample.txt.hash
+3. Verify file integrity later:  python file_checker.py verify sample.txt
+Output: File intact 
+Output: File has been modified 
